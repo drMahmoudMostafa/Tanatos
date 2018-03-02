@@ -1,0 +1,522 @@
+/*start my framwork*/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Open sans", "sans-serif";
+}
+
+.container {
+    margin: 0 15%;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(49, 54, 61, .75);
+    height: inherit;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border: 1px solid #fff;
+    width: 140px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .2s all ease-in-out;
+    font-size: 80%;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    outline: none;
+    background: transparent;
+}
+
+input {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.tx-center {
+    text-align: center;
+}
+
+.main-cl {
+    color: #f7600e;
+}
+
+.main-bgcl {
+    background-color: #f7600e;
+}
+
+.up-case {
+    text-transform: uppercase;
+}
+
+.comment {
+    padding: 60px;
+    padding-bottom: 40px;
+    color: #3b424c;
+}
+
+.comment p {
+    line-height: 170%;
+}
+
+.comment h3 {
+    font-weight: 700;
+}
+
+.social i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 150%;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.social .fa-facebook {
+    background-color: #3b5998
+}
+
+.social .fa-twitter {
+    background-color: #1da1f2
+}
+
+.social .fa-google-plus {
+    background-color: #dd4b39
+}
+
+.table {
+    display: table;
+    height: 100%;
+    width: 70%;
+}
+
+.table-row {
+    display: table-row;
+    vertical-align: middle;
+    -webkit-vertical-align: middle;
+    -moz-vertical-align: middle;
+}
+
+/*end my framwork*/
+
+/*start header*/
+
+header {
+    background: url(../images/bg/macbook2.jpg);
+    background-size: cover;
+    color: #fcfcfc;
+}
+
+header nav {
+    margin: 40px 15%;
+    position: absolute;
+    width: 70%;
+    top: 0;
+    left: 0;
+}
+
+header .brand {
+    font-size: 100%;
+    float: left;
+}
+
+header .brand h3 {
+    margin-top: 0;
+}
+
+header .menu {
+    float: right;
+}
+
+header .menu i {
+    margin: 0 10px;
+}
+
+header .intro {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+header .intro h1 {
+    font-size: 400%;
+    font-weight: 500
+}
+
+header .intro button {
+    background: transparent;
+    color: #fff;
+
+}
+
+header .intro button:hover,
+header .arrow i:hover {
+    background: #f7600e;
+    border-color: #f7600e;
+}
+
+header .arrow {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+}
+
+header .arrow i {
+    width: 33px;
+    height: 33px;
+    line-height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+/*end header*/
+
+/*start features*/
+
+.features {
+    padding: 50px 0;
+    color: #888
+}
+
+.features section {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.features section:last-of-type {
+    margin-right: 0;
+}
+
+.features section i {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+
+}
+
+.features section h3 {
+    font-weight: 500;
+    font-size: 127%;
+    margin: 15px 0;
+    color: #666;
+}
+
+/*end features*/
+
+/*start subscribe*/
+
+.subscribe {
+    background: url(../images/bg/tablet-791051.jpg);
+    height: 155px;
+}
+
+.subscribe .container {
+    padding-top: 50px;
+}
+
+.subscribe .container button {
+    color: #fff;
+    border: none;
+}
+
+.subscribe .container input {
+    width: 45%;
+    margin-right: 4%;
+
+}
+
+/*end subscribe*/
+
+/*start our works*/
+
+.gallary {
+    padding: 50px 0;
+}
+
+.gallary .item {
+    width: 30.3333333%;
+    height: 290px;
+    border-radius: 10px;
+    margin: 10px 1.5%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallary .item .img-overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(247, 96, 14, .9);
+    color: #fff;
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.gallary .item .img-overlay h4 {
+    font-weight: 400
+}
+
+.gallary .item .img-overlay p {
+    font-size: 80%
+}
+
+.gallary .item .img-overlay button {
+    color: #fff;
+}
+
+.gallary .item .img-overlay button:hover {
+    background: #fff;
+    color: #f7600e;
+    border: none;
+}
+
+.gallary .item:hover .img-overlay {
+    display: block;
+}
+
+.gallary > button {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-color: #999;
+    font-weight: 700;
+    color: #666;
+}
+
+.gallary > button:hover {
+    background: #f7600e;
+    color: #fff;
+    border: none
+}
+
+/*end our works*/
+
+/*start testimonials*/
+
+.testim {
+    background: url(../images/bg/woman-690036.jpg);
+    height: 320px;
+    color: #b7babb;
+
+}
+
+.testim .container {
+    position: relative;
+    padding: 40px 0;
+}
+
+.testim .client img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.testim .client p {
+    margin: 30px auto;
+    line-height: 200%;
+    font-size: 110%;
+}
+
+.testim .client h3 {
+    font-size: 110%;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.testim i {
+    position: absolute;
+    top: 50%;
+    color: #d1d1d1;
+}
+
+.testim i:hover {
+    color: #f7600e;
+}
+
+.testim .fa-chevron-left {
+    left: 0;
+}
+
+.testim .fa-chevron-right {
+    right: 0;
+}
+
+/*end testimonials*/
+
+/*start our team*/
+
+.our team .team {
+    color: #888;
+}
+
+.our-team .team .person {
+    width: 22%;
+    margin: 30px 1.5%;
+    float: left;
+    filter: grey;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.our-team .team .person .id-image {
+    margin: 10px 8%;
+    height: 190px;
+
+}
+
+.our-team .team .person:hover {
+    filter: none;
+}
+
+.our-team .team .person:hover .id-image {
+    height: 210px;
+    transform: translateY(-20px);
+    margin: 10px 0;
+}
+
+/*end our team*/
+
+/*start footer*/
+
+footer,
+footer .comment {
+    color: #fff;
+}
+
+footer .contact {
+    background: url(../images/bg/city-937541.jpg);
+
+}
+
+footer .contact .container {
+    padding-bottom: 40px;
+}
+
+footer form {
+    padding: 20px 15%;
+}
+
+footer form input[type="email"],
+footer form button {
+    float: left;
+    margin-left: 0;
+}
+
+footer form input[type="text"],
+footer form .social {
+    float: right;
+}
+
+footer form input {
+    width: 47%;
+    margin: 30px 0 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+footer form textarea {
+    width: 100%;
+    margin: 20px 0;
+    height: 150px;
+    border-radius: 5px;
+}
+
+footer form button {
+    color: #fff;
+    border: none;
+    background: #f7600e;
+}
+
+footer form .social {
+    width: 30%
+}
+
+footer form .social i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 150%;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    margin-right: 3%;
+    text-align: center;
+}
+
+footer form .social .fa-facebook {
+    background-color: #3b5998
+}
+
+footer form .social .fa-twitter {
+    background-color: #1da1f2
+}
+
+footer form .social .fa-google-plus {
+    background-color: #dd4b39
+}
+
+footer form .social .fa-pinterest-p {
+    background-color: #bd081c
+}
+
+footer form .social .fa-behance {
+    background-color: #1769ff
+}
+
+footer .copyright .overlay {
+    background: rgba(59, 68, 77, .75);
+}
+
+footer .copyright p:nth-child(2) {
+    float: right;
+}
+
+footer .copyright p:first-child {
+    float: left;
+}
+
+/*end footer*/
